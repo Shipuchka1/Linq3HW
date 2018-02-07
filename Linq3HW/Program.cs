@@ -197,6 +197,7 @@ namespace Linq3HW
             string[] name = new string[] { "PT disassembly", "Engine testing" };
             var res = areas.Sum(s => s.WorkingPeople);
             Console.WriteLine(res);
+
         }
 
     }
